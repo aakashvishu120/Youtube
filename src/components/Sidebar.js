@@ -22,7 +22,7 @@ const Sidebar = () => {
     if(!isMenuOpen) return null;
 
     return (
-    <div className='m-5 p-1 w-1/6 *:text-sm *:leading-8'>
+    <div className='hidden md:block md:m-5 md:p-1 md:w-1/6 md:*:text-sm *:leading-8'>
         {/* leading is used for line height */}
         <ul className='w-56'>
             <li> <MdHomeFilled className='inline text-xl m-2'/> <Link to="/"> Home</Link></li>
